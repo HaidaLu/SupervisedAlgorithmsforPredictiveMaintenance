@@ -19,7 +19,7 @@ Using an LSTM model to predict the capacity of a battery. The training and testi
 
 model folder contains the following files:
 
-![Screenshot 2022-08-16 at 12.07.33](/Users/luhaida/Library/Application Support/typora-user-images/Screenshot 2022-08-16 at 12.07.33.png)
+![model](figure/model.png)
 
 - assets and assets.extra: contains files used by the TensorFlow graph and there may be an assets.extra
   directory for any files not used by the TensorFlow graph. 
@@ -30,7 +30,7 @@ model folder contains the following files:
 
 use saved_model_cli, a command tool to specify the information including input and output tensor for tensorflow C API.
 
-![Screenshot 2022-08-16 at 12.10.23](/Users/luhaida/Library/Application Support/typora-user-images/Screenshot 2022-08-16 at 12.10.23.png)
+![cli](figure/cli.png)
 
 The first command shows all available tag-sets in the SavedModel. Then, all the SignatureDef keys for
 this tag-set can be found. Finally, passing in the SignatureDef Key to command can show all inputs and
