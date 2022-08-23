@@ -105,7 +105,7 @@ int main()
     //{
     //    printf("%f\n",offsets[i]);
     //}
-    printf("%f\n",offsets[i]);
+    printf("%f\n",offsets[0]);
     
     
 }
