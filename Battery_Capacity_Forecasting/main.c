@@ -101,10 +101,11 @@ int main()
     void* buff = TF_TensorData(OutputValues[0]);
     float* offsets = (float*)buff;
     printf("Result Tensor :\n");
-    for(int i=0;i<10;i++)
-    {
-        printf("%f\n",offsets[i]);
-    }
+    //for(int i=0;i<10;i++)
+    //{
+    //    printf("%f\n",offsets[i]);
+    //}
+    printf("%f\n",offsets[i]);
     
     
 }
